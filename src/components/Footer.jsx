@@ -148,12 +148,18 @@ export default function Footer() {
           </p>
 
           {/* Krisha Tech Agency Label */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-stone-900 border border-gold-500/30 text-stone-300 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5 text-gold-400" />
+          <a 
+            href={siteConfig.agency.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-stone-900 hover:bg-stone-800 border border-gold-500/30 hover:border-gold-400 text-stone-300 shadow-sm transition-all group"
+            title="Visit Krisha Tech"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-gold-400 group-hover:rotate-12 transition-transform" />
             <span>
-              <span className="text-gold-300 font-semibold">{siteConfig.agency.badge}</span>
+              <span className="text-gold-300 font-semibold group-hover:text-gold-200">{siteConfig.agency.badge}</span>
             </span>
-          </div>
+          </a>
         </div>
 
       </div>

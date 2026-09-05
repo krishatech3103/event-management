@@ -7,7 +7,7 @@ export default function FloatingWhatsApp() {
   const [showTooltip, setShowTooltip] = useState(true);
 
   return (
-    <div className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 flex items-center gap-3">
+    <div className="hidden md:flex fixed bottom-8 right-8 z-40 items-center gap-3">
       {/* Tooltip on Desktop */}
       {showTooltip && (
         <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-stone-900/90 text-white text-xs shadow-lg border border-gold-400/30 backdrop-blur-md animate-float-gentle">

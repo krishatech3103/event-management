@@ -227,7 +227,7 @@ export default function Contact() {
                     id="phone"
                     name="phone"
                     required
-                    placeholder="e.g. 98765 43210"
+                    placeholder="e.g. 70833 30914"
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-maroon-800 focus:ring-2 focus:ring-maroon-800/20 text-sm text-stone-900 placeholder:text-stone-400 outline-none transition-all"

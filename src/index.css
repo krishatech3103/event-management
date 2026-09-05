@@ -58,6 +58,11 @@
   .maroon-glow {
     box-shadow: 0 10px 40px -10px rgba(126, 25, 52, 0.35);
   }
+
+  /* Safe Area for iOS Notch Devices */
+  .safe-area-bottom {
+    padding-bottom: max(0.625rem, env(safe-area-inset-bottom, 0.625rem));
+  }
 }
 
 /* Accessibility: Respect Reduced Motion */

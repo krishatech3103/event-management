@@ -10,21 +10,21 @@ export const siteConfig = {
   // Business Identity
   business: {
     name: "Royal Celebration Events",
-    tagline: "Beautiful Decorations. Unforgettable Celebrations.",
+    tagline: "Celebrations. Made simple.",
     shortBio: "From elegant wedding mandaps to vibrant birthday celebrations, we create customized decoration setups based on your event, venue and style.",
     badge: "Event & Mandap Styling",
     
-    // Contact Information (Easily replaceable)
-    phone: "+91 98765 43210",
-    phoneRaw: "+919876543210",
-    whatsapp: "+91 98765 43210",
-    whatsappRaw: "919876543210",
-    email: "hello@example.com",
+    // Contact Information (From cctv.krishatech.in)
+    phone: "+91 70833 30914",
+    phoneRaw: "+917083330914",
+    whatsapp: "+91 70833 30914",
+    whatsappRaw: "917083330914",
+    email: "contact@krishatech.in",
     
     // Physical Location
     locationCity: "Sangli, Maharashtra",
     address: "Station Road, Near Market Yard, Sangli, Maharashtra 416416",
-    workingHours: "Mon – Sun: 9:00 AM – 8:00 PM",
+    workingHours: "Mon – Sat: 9:00 AM – 8:00 PM",
     
     // Maps
     googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61102.13470769342!2d74.5369680327318!3d16.85239726207865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc123b152d1136b%3A0xb7e510ba4e414c27!2sSangli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
@@ -38,13 +38,17 @@ export const siteConfig = {
     },
   },
 
-  // Agency Demo Attribution
+  // Agency Demo Attribution (Krisha Tech)
   agency: {
     name: "Krisha Tech",
+    website: "https://krishatech.in",
+    phone: "+91 70833 30914",
+    phoneRaw: "+917083330914",
+    email: "contact@krishatech.in",
     badge: "Demo Website by Krisha Tech",
-    tagline: "Crafting modern websites for Indian businesses",
-    contactText: "Interested in a website like this for your decoration business?",
-    salesWhatsapp: "919876543210",
+    tagline: "Fast, mobile-friendly websites that help local businesses get more calls and WhatsApp inquiries",
+    contactText: "Interested in a website like this for your business?",
+    salesWhatsapp: "917083330914",
   },
 
   // Hero Section

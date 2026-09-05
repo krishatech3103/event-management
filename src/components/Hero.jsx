@@ -5,7 +5,7 @@ import { ArrowRight, Sparkles, MessageCircle, Eye, Calendar, Award } from 'lucid
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-[92vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-maroon-950 pt-24 pb-16">
+    <section id="home" className="relative min-h-[92vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-maroon-950 pt-28 md:pt-32 pb-16">
       {/* Background Image with Slow Zoom (Ken Burns effect) and Dark Vignette */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
