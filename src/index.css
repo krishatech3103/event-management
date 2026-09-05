@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #1F2937;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF8F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C59B27;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #947217;
+  }
+}
+
+@layer utilities {
+  /* Subtle gold gradient text */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #F5E6B5 50%, #B89223 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Deep royal maroon gradient text */
+  .text-maroon-gradient {
+    background: linear-gradient(135deg, #7E1934 0%, #981B3B 50%, #54081F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Luxury gold border */
+  .border-gold-subtle {
+    border-color: rgba(212, 175, 55, 0.3);
+  }
+
+  /* Soft radial glow */
+  .gold-glow {
+    box-shadow: 0 0 50px -10px rgba(212, 175, 55, 0.25);
+  }
+
+  .maroon-glow {
+    box-shadow: 0 10px 40px -10px rgba(126, 25, 52, 0.35);
+  }
+}
+
+/* Accessibility: Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
